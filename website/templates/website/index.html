@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Hello froj Django</title>
+  </head>
+  <body>
+    <h1>Hello froj Django</h1>
+    
+    from context: 
+    {{ key }}
+    
+    {% for resto in restaurants %}
+
+        name: {{ resto.name }}
+        <br/>
+        name: {{ resto.address1 }}
+        <br/>
+        stars: {{ resto.stars }}
+        <br/><br/><br/>
+
+    {% endfor %}
+    
+    <p>super simple</p>
+  </body>
+</html>
